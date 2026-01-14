@@ -15,9 +15,9 @@ public class Main {
 
     public static void main(String[] args) {
         Profuct p = new Profuct();
-        System.out.println(p.product(2,2));
-        System.out.println(p.product(2,2,2));
-        System.out.println(p.product(2.2,2.2));
+        System.out.println(p.product(13,13));
+        System.out.println(p.product(13,2,2));
+        System.out.println(p.product(4.2,4.2));
     }
 
 }
